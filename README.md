@@ -1,8 +1,8 @@
 # S3DK (Smart Grid Synchrophasor Software Development Kit)
 
-## What's in this Repository? In a Nutshell!
+### What's in this Repository? In a Nutshell!
 
-### Summary
+#### Summary
 Github allows to distribute the source code of a software project, and "builds" of the current version.
 
 The S3DK is comprised of two main parts (a) a real-time data mediator (aka DLL) that parses and handles PMU data (implemented in C++), and (b) a LabView User Interface (UI).
@@ -10,13 +10,13 @@ The S3DK is comprised of two main parts (a) a real-time data mediator (aka DLL) 
 In this repository you find all the source code related to the the LabView UI, includding the wrappers to use the methods inside the DLL for low level data management.
 However, the source code for the DLL will be hosted in a different repository.
 
-### Installers
+#### Installers
 If you don't want to build anything from scratch, we provide a "release" which allows installation of the LabView components and the Real-Time Data Mediator (.dll) using the VI package manager. That's all you need to get up and running. The latest installer can be found here: [Go To Releases](https://github.com/SmarTS-Lab-Parapluie/S3DK/releases)
 
-### Source Code: LabView UI and "Pallete"
+#### Source Code: LabView UI and "Pallete"
 All the source code related to different functionalities in LabView are managed in this repository. These include wrappers that call different methods implemented in a DLL that allow connection with a PMU/PDC, a library of blocks that provide access to the PMU data within LabView and other functions implemented in LabView blocks. All these functionalities are made available in a "pallete" (e.g. like a toolbox) within LabView.
 
-### Source Code - External: Real-Time Data Mediator (aka DLL)
+#### Source Code - External Repo: Real-Time Data Mediator (aka DLL)
 The source code of the real-time data mediator is being cleaned up for realease. For maintainance purposes we will create a different repository where the source code will be hosted.
 
 ## Overview
