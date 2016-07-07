@@ -1,2 +1,2 @@
 # S3DK
-Statnett Synchrophasor SDK
+Smart Grid Synchrophasor Software Development Kit
