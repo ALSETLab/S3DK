@@ -33,7 +33,7 @@ The LabView UI provides both easy connection with PMUs/PDCs and a "pallete" in L
 The real-time data mediator has a client/server architecture, and an advanced API that would allow its use in other development environments instead of LabView. 
 In addition, the real-time mediator has been build with several future functionalities in mind, such as a time-synchronization layer and multithreading.
 
-## S3DK - Why?
+## S3DK Basic Functionalities
 Compliance with the IEEE C37.118.2 protocol means that a developer can directly connect to a synchrphasor stream from an individual PMU, or from multiple PMUs within a PDC output stream, thereby liberating them of the complexities involved synchrophasor data handling involved in dealing with the packets wrapped within the protocol.
 
 The toolkit provides a real-time data mediator that parses the IEEE C37.118.2 – 2011 protocol, and provides auxiliary functions (such as data windowing) implemented in C++.
@@ -53,4 +53,32 @@ L. Vanfretti, V. H. Aarstrand, M. S. Almas, V. S. Perić and J. O. Gjerde, "A so
 doi: 10.1109/PTC.2013.6652191
 URL: [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6652191&isnumber=6652052)
 
+## S3DK - Why release it as OSS?
+### Synchrophasor Technology - going the last mile!
+For over 10 years, (Luigi Vanfretti) has heard the expression "What can you do with real-time PMU data?", for which many answers can be given. 
+However, any answer that you might provide assummes that you have the technology to actually make it a reality. 
+S3DK changes that, and it makes the answer, "as long as you can program (in LabView...), it's up to you what application to come up with!".
 
+With PMU technologies there are too few alternatives to develop PMU applications that use real-time data. 
+You either have to buy a proprietary software solution, or use the tools from GPA (i.e. OpenPDC and others). 
+The problems with proprietary solutions are countless, but from a research perspective, they simply do not have the flexibility one needs for implementing new ideas. 
+The awesome solutions from GPA on the other hand require far too many software development and programming skills beyond those that a typical electrical power engineering has. 
+With these two points in mind, S3DK has developed with the researcher in mind: to provide a set of tools in an easy software development environment familiar to MSc students for PMU application prototyping, and that does not require deep knowledge on protocol parsing, real-time data management, etc.
+
+After using the software since 2012, KTH SmarTS Lab students have implemented many applications using S3DK, and we believe that these tools can help other researchers to innovate also.
+Thus, the reason to release this software as OSS is to give momentum to the field of Synchrophasor Technology, specially in the area of PMU applications, and to provide it's users freedom.
+
+We hope that you use S3DK and share your applications using this software to others, just like we have shared S3DK with you.
+
+## Development History and OSS Release
+The S3DK was developed within the NER-funded STRONgrid project ([link](http://www.nordicenergy.org/project/smart-transmission-grid-operation-and-control/)), where Statnett SF commissioned the implementation to the software development provider, Enfo AS. 
+The concept, specifications and requirements where developed jointly by Statnett (Luigi Vanfretti, Stig Løvlund and Jan Ove Gjerde), KTH SmarTS Lab (Luigi Vanfretti) and Enfo AS (Vemund H. Aarstrand). 
+During the development, many researchers at KTH SmarTS Lab (and other institutions) have contributed towards this software through testing, functionality requirements and utilization. 
+
+## Development Status
+In 2016, Statnett authorized the release of the excecutables and source of the S3DK. KTH SmarTS Lab's researchers are working hard in curating it, so that all of the software can be shared in a functioning and reliable state.
+
+This repository makes available the first portion of the source code and excecutables, other repositories will include additional source developed during the project.
+
+The future development and maintainance depends directly on the research funding availability. 
+If you wish to see the software be maintained and developed, you can contribute yourself with code, or get in contact with Luigi Vanfretti to arrange a development contract that will support students to maintain the software.
