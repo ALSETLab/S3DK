@@ -47,7 +47,7 @@ M. S. Almas, M. Baudette, L. Vanfretti, S. L⊘vlund and J. O. Gjerde, "Synchrop
 doi: 10.1109/PESGM.2014.6938835
 URL: [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6938835&isnumber=6938773)
 
-## Citation:
+## Use our Software? Cite our Work!
 If you use our software, please cite the following paper:
 L. Vanfretti, V. H. Aarstrand, M. S. Almas, V. S. Perić and J. O. Gjerde, "A software development toolkit for real-time synchrophasor applications," PowerTech (POWERTECH), 2013 IEEE Grenoble, Grenoble, 2013, pp. 1-6.
 doi: 10.1109/PTC.2013.6652191
