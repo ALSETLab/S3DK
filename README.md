@@ -58,6 +58,9 @@ M. S. Almas, M. Baudette, L. Vanfretti, S. L⊘vlund and J. O. Gjerde, "Synchrop
 doi: 10.1109/PESGM.2014.6938835
 URL: [link](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6938835&isnumber=6938773)
 
+We have now released a couple of synchrophasor applications that use the S3DK:
+- A basic synchrophasor display application (with source code), can be found in the following repository: [https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay)
+- A Wide-Area Phasor-Based Control System that uses S3DK and the National Instruments compact RIO (cRIO) (with source code) is available in the following repository: [https://github.com/SmarTS-Lab-Parapluie/Audur](https://github.com/SmarTS-Lab-Parapluie/Audur)
 
 ## S3DK - Why release it as OSS?
 ### Synchrophasor Technology - going the last mile!
