@@ -1,6 +1,12 @@
 # Builds
 ################################################################################
-/builds/*
+builds/S3DK Labview/*
+!builds/S3DK Labview/placeholder
+builds/VIPM Packages/*
+!builds/VIPM Packages/placeholder
+builds/StrongridDLL/*
+!builds/StrongridDLL/placeholder
+
 
 # Labview
 ################################################################################
