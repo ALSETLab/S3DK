@@ -74,5 +74,4 @@
 		<Item Name="TEST Monitor Polling.vi" Type="VI" URL="../vi/Test/TEST Monitor Polling.vi"/>
 	</Item>
 	<Item Name="StrongridDLL.lvlib" Type="Library" URL="../vi/Auto Generated/StrongridDLL.lvlib"/>
-	<Item Name="StrongridDLL.dll" Type="Document" URL="../vi/Auto Generated/StrongridDLL.dll"/>
 </Library>

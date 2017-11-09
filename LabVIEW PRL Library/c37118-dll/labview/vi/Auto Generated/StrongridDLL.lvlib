@@ -32,4 +32,5 @@
 	<Item Name="read Next Frame.vi" Type="VI" URL="../VIs/read Next Frame.vi"/>
 	<Item Name="start Data Stream.vi" Type="VI" URL="../VIs/start Data Stream.vi"/>
 	<Item Name="stop Data Stream.vi" Type="VI" URL="../VIs/stop Data Stream.vi"/>
+	<Item Name="StrongridDLL.dll" Type="Document" URL="../../../../../../builds/StrongridDLL/StrongridDLL.dll"/>
 </Library>

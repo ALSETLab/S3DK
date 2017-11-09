@@ -30,20 +30,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Basic" Type="Folder" URL="../PMU Recorder Light/Basic">
+		<Item Name="Basic" Type="Folder" URL="../labview-statnett-prl/PMU Recorder Light/Basic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Templates" Type="Folder" URL="../PMU Recorder Light/Templates">
+		<Item Name="Templates" Type="Folder" URL="../labview-statnett-prl/PMU Recorder Light/Templates">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Time" Type="Folder" URL="../PMU Recorder Light/Time">
+		<Item Name="Time" Type="Folder" URL="../labview-statnett-prl/PMU Recorder Light/Time">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Write" Type="Folder" URL="../PMU Recorder Light/Write">
+		<Item Name="Write" Type="Folder" URL="../labview-statnett-prl/PMU Recorder Light/Write">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="C37118-DLL.lvlib" Type="Library" URL="../../c37118-dll/labview/C37118-DLL.lvlib"/>
-		<Item Name="PMU Recorder Light.lvlib" Type="Library" URL="../PMU Recorder Light/PMU Recorder Light.lvlib"/>
+		<Item Name="C37118-DLL.lvlib" Type="Library" URL="../c37118-dll/labview/C37118-DLL.lvlib"/>
+		<Item Name="PMU Recorder Light.lvlib" Type="Library" URL="../labview-statnett-prl/PMU Recorder Light/PMU Recorder Light.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -119,7 +119,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/dev/statnett/S3DK-Startup/builds/S3DK Labview/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A47D0849-DBA1-43D2-9A87-DF7E318CAFA1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46B80382-F4C7-4AB0-BF63-BCB98112B28C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Templates/Template No Block Diagram VI.vi</Property>
@@ -590,8 +590,8 @@
 				<Property Name="Source[64].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[64].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[64].type" Type="Str">Container</Property>
-				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/C37118-DLL.lvlib/StrongridDLL.dll</Property>
+				<Property Name="Source[65].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/C37118-DLL.lvlib/StrongridDLL.lvlib/StrongridDLL.dll</Property>
 				<Property Name="Source[65].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
