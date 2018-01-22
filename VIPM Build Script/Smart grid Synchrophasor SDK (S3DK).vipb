@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-01-16 14:14:12" Modified_Date="2018-01-19 16:51:45" Creator="baudette" Comments="" ID="6af9d2d4838a6e0c5122019494c9fcc6">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-01-16 14:14:12" Modified_Date="2018-01-22 13:37:12" Creator="baudette" Comments="" ID="966736d406b746bb377be0f204da35e0">
   <Library_General_Settings>
     <Package_File_Name>Labview2013_PMU_Reference_Library</Package_File_Name>
-    <Library_Version>1.2.0.3</Library_Version>
+    <Library_Version>1.2.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\builds\S3DK Labview</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM Packages</Library_Output_Folder>
@@ -319,7 +319,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\Buffer and Queues</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AD0BCC65B72F7197A88A391543A7AEF</GUID>
+      <GUID>20785B5D22AEDE56DEAF60540D7E2DD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -858,7 +858,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\PMU Recorder Light\Utilities\PRL UTIL Split Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4805268EB84E48D250A2A603708389F</GUID>
+      <GUID>AD939C6C67F6BFB4DBAB02B8FC784184</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -893,7 +893,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\Write\Time\Time Stamp to ISO 8601 with milliseconds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C8A90396C2F19562F291E8AA7F6FDBC</GUID>
+      <GUID>FA1DA6597AF62E50C06526D676D45D07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -942,7 +942,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\Templates\Template VI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55170B223F1A1B2C76C294985A571A61</GUID>
+      <GUID>00CB888BDE424F9DFFFC836064326E07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1019,7 +1019,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\Write\Write to TDMS File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>244DCC919810718389A3E9AE0151DF72</GUID>
+      <GUID>34FD6C75BF195895D83F059ECECFF942</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1124,7 +1124,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\Basic\Simple Frequency Reader.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F1CAD3FEE042CB36000B8CDC63DA246</GUID>
+      <GUID>5CC01B07AADA64E5B3583A1DA1D7A86A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1257,7 +1257,7 @@ along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
         <Path>..\builds\S3DK Labview\PMU Recorder Light\PRL PMU Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7A1ABF231D86F227B86E389DBEADDABD</GUID>
+      <GUID>FCB4C488CA9BE80AFDC121213F2895E8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

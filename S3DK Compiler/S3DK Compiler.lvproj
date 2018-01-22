@@ -110,7 +110,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/S3DK Labview/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{52BA41C2-49C2-4694-B534-A3655E0522A6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7BD1AB11-D8D9-45F7-87E1-014D2F1F496D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
