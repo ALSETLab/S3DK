@@ -1,17 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{16061EF9-1943-4928-9715-E6032B759FB8}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Data Rate History</Property>
-	<Property Name="varPersistentID:{1A7E065D-81DD-477F-BD96-92BC3B9DB5F2}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL dt Tolerance</Property>
-	<Property Name="varPersistentID:{4A83F38F-6D65-490C-B7C4-6F63110FB7FB}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Number of Live Buffers in Access Buffer</Property>
-	<Property Name="varPersistentID:{56E4CAB2-4E58-4EC8-A503-94210A482AEE}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Complex Data Points Allowed Equal</Property>
-	<Property Name="varPersistentID:{77B510F2-3B43-4B0B-8933-E8EBBDFFBC8A}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Number of Connection Attempts</Property>
-	<Property Name="varPersistentID:{A52C57A0-7FA8-46F2-8E8B-308C1A9D9E34}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Analog Data Points Allowed Equal</Property>
-	<Property Name="varPersistentID:{CB78EDFC-E837-438F-BA53-CCB1269E422C}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Seconds Before Reset After Wait for Config Fails</Property>
-	<Property Name="varPersistentID:{F6929892-FD97-4736-BE76-31CE85813D04}" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables/PRL Live Data Buffer Size</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -41,6 +33,7 @@
 		</Item>
 		<Item Name="C37118-DLL.lvlib" Type="Library" URL="../c37118-dll/C37118-DLL.lvlib"/>
 		<Item Name="PMU Recorder Light.lvlib" Type="Library" URL="../PMU Recorder Light/PMU Recorder Light.lvlib"/>
+		<Item Name="StrongridDLL.dll" Type="Document" URL="../../builds/StrongridDLL/StrongridDLL.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -60,7 +53,7 @@
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
@@ -70,6 +63,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -97,12 +91,15 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/13.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/17.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/baudette/Documents/LabVIEW Data/2017(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/S3DK Labview</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8475488B-C52C-44C6-BC73-4AC5187C4E72}</Property>
@@ -114,7 +111,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/S3DK Labview/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5D1FCBE9-1474-4B49-B026-81E335F00E0B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00E9488D-E32D-4F66-A602-73F7B7767650}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -491,23 +488,19 @@
 				<Property Name="Source[51].itemID" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Classes/Statnett C37.118 DLL.lvclass/Configuration/Get PMU Configuration.vi</Property>
 				<Property Name="Source[51].newName" Type="Str">Get PMU Configuration2.vi</Property>
 				<Property Name="Source[51].type" Type="Str">VI</Property>
-				<Property Name="Source[52].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/PMU Recorder Light.lvlib/Variables</Property>
-				<Property Name="Source[52].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[52].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[52].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[52].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[52].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[52].type" Type="Str">Container</Property>
-				<Property Name="Source[53].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/C37118-DLL.lvlib/StrongridDLL.lvlib/StrongridDLL.dll</Property>
+				<Property Name="Source[52].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/StrongridDLL.dll</Property>
+				<Property Name="Source[52].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[53].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[53].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/Basic</Property>
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[54].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[54].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[53].type" Type="Str">Container</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/Basic</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/PMU Recorder Light.lvlib/S3DK GUI.vi</Property>
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[54].type" Type="Str">Container</Property>
+				<Property Name="Source[54].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
