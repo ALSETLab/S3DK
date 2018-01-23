@@ -33,6 +33,7 @@
 		</Item>
 		<Item Name="C37118-DLL.lvlib" Type="Library" URL="../c37118-dll/C37118-DLL.lvlib"/>
 		<Item Name="PMU Recorder Light.lvlib" Type="Library" URL="../PMU Recorder Light/PMU Recorder Light.lvlib"/>
+		<Item Name="StrongridDLL.dll" Type="Document" URL="../../builds/StrongridDLL/StrongridDLL.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -110,7 +111,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/S3DK Labview/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7BD1AB11-D8D9-45F7-87E1-014D2F1F496D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{00E9488D-E32D-4F66-A602-73F7B7767650}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -488,7 +489,7 @@
 				<Property Name="Source[51].newName" Type="Str">Get PMU Configuration2.vi</Property>
 				<Property Name="Source[51].type" Type="Str">VI</Property>
 				<Property Name="Source[52].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/C37118-DLL.lvlib/StrongridDLL.lvlib/StrongridDLL.dll</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/StrongridDLL.dll</Property>
 				<Property Name="Source[52].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[53].Container.applyInclusion" Type="Bool">true</Property>
