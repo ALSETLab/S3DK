@@ -1,6 +1,9 @@
 # S3DK 
 ## Smart Grid Synchrophasor Software Development ToolKit
 
+### Quick-Start Guide: Installing the S3DK and Testing your Installation
+Please read the following Quick-Start Guide to learn how to install, test and start using the S3DK: [Quick-Start Guide 2018](https://www.notion.so/Quick-Start-Guide-Installing-the-S3DK-and-Testing-your-Installation-f791d8c2e9d7402ab6a820e065dd93e2)
+
 ### What's in this Repository? In a Nutshell!
 
 #### Summary
