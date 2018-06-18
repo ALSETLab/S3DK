@@ -17,6 +17,7 @@ builds/StrongridDLL/*
 # Shared objects (inc. Windows DLLs)
 *.dll
 !StrongridDLL.dll
+!StrongridDLLx64.dll
 *.so
 *.so.*
 *.dylib

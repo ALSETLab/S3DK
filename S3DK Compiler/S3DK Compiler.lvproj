@@ -34,6 +34,8 @@
 		<Item Name="C37118-DLL.lvlib" Type="Library" URL="../c37118-dll/C37118-DLL.lvlib"/>
 		<Item Name="PMU Recorder Light.lvlib" Type="Library" URL="../PMU Recorder Light/PMU Recorder Light.lvlib"/>
 		<Item Name="StrongridDLL.dll" Type="Document" URL="../../builds/StrongridDLL/StrongridDLL.dll"/>
+		<Item Name="StrongridDLLx64.dll" Type="Document" URL="../../builds/StrongridDLL/StrongridDLLx64.dll"/>
+		<Item Name="UpdateDLLx64.vi" Type="VI" URL="../UpdateDLLx64.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -60,6 +62,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
@@ -111,7 +114,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/S3DK Labview/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{00E9488D-E32D-4F66-A602-73F7B7767650}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EE91DA39-C972-40DC-809A-AC2C549419B9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -501,6 +504,13 @@
 				<Property Name="Source[54].itemID" Type="Ref">/My Computer/PMU Recorder Light.lvlib/S3DK GUI.vi</Property>
 				<Property Name="Source[54].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[54].type" Type="Str">VI</Property>
+				<Property Name="Source[55].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/UpdateDLLx64.vi</Property>
+				<Property Name="Source[55].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[55].type" Type="Str">VI</Property>
+				<Property Name="Source[56].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/StrongridDLLx64.dll</Property>
+				<Property Name="Source[56].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
@@ -541,7 +551,7 @@
 				<Property Name="Source[9].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">55</Property>
+				<Property Name="SourceCount" Type="Int">57</Property>
 			</Item>
 		</Item>
 	</Item>
