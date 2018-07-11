@@ -1,0 +1,8 @@
+﻿
+![](https://lh3.googleusercontent.com/DNvhJASeRHUERKbxoQB7dA-vN4GRJ9kl3me_qGNYMJ6uVYklzUib7MW6ssZGb-cOPicocORc_MtyiZh4KsqfAHcreR0A6zLzTzisYgYxoOvVw6Kw9kUTL4NmrJtucFdZuIyvu-Gy)
+
+This component converts phasor numerical value into string representation in either polar form or rectangular form.
+
+![](https://lh4.googleusercontent.com/vduO6digFn6d7jjg-d4xC10hJk_Fu8o72s5P7wCQGI3EeR3EsQpUGkmCfnL1iWUFawOMQd8Yh1D_cBKJygTJtwXGNHyN37sdNw7FtvlYcvTZi1QtyRvofnM5h2fwSsVE3Jaiwu9s)
+
+![](https://lh5.googleusercontent.com/y4BreymctObzG72TmexOBmC7lYq7oxhyLB9dWJD-7FtFPpWBTBMpMfa9rYgbQqLXMxXfqWXMpS2wA4-WFCV2ZFt5cbonZ_eQ4SWTX2QyriK_pFAm0VFqAI-gpiLQNB8yPPgJ8v5M)
