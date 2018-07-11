@@ -24,14 +24,14 @@ const siteConfig = {
   title: 'Documentation' /* title for your website */,
   tagline: 'S3DK - STRONGgrid',
   url: 'https://ALSETLab.github.io' /* your website url */,
-  baseUrl: '/S3DK/' /* base url for your project */,
+  baseUrl: '/S3DK_documentation/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'S3DK',
-  organizationName: 'ALSETLabs',
+  projectName: 'S3DK_documentation',
+  organizationName: 'ALSETLab',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
