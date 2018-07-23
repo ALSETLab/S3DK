@@ -1,0 +1,3 @@
+﻿**![](https://lh4.googleusercontent.com/CqgL7gswonMMOdrqvgYumFj2uqc-61H3grxDC-MHx8vuYQuJHfVoICr3Usnf9KFVbp6l_crroXuegJzxbkuliDRrFPll4D1WkRTQtRjgSfVX_AxmbjqE4TLgOlndkUd5aF25E8g_)**
+**![](https://lh6.googleusercontent.com/Az08B7ORsL-XhuCXueLxPBmtY-x0YOFFMqDpzZbjougd1ZZ3-Eo05qblH4tPgDZHxustB8uujmtD2QFSrRoQXxFN_OqOxgjC9oH090ifvyhu8tdqt8sZYelMJjOusxXMBpqmmRq7)**
+34 GPS Time from Config VI outputs the Time by first finding the difference between the Tick Count and the millisecond counter in microseconds. These values come from the VI 42 Config File Read GPS Time. The difference is added to the LabVIEW time to output the Time. The VI also outputs if the GPS lock is True or False.
