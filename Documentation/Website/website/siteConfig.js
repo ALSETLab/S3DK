@@ -23,22 +23,22 @@ const users = [
 const siteConfig = {
   title: 'Documentation' /* title for your website */,
   tagline: 'S3DK - STRONGgrid',
-  url: 'https://ALSETLab.github.io' /* your website url */,
-  baseUrl: '/S3DK/' /* base url for your project */,
+  url: 'https://your-docusaurus-test-site.com' /* your website url */,
+  baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   projectName: 'S3DK',
-  organizationName: 'ALSETLab',
+  organizationName: 'Grey-J',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'Setting_Memory', label: 'Documentation' },
+      { doc: 'S3DK_Utilities_VI_Overview', label: 'Documentation' },
     /*{ search: true },*/      /*Search can be enabled by request with DocSearch*/
     /*{doc: 'Recompiling Stronggreid DLL', label: 'Please'},*/
     { doc: 'PDC_Reader', label: 'Integrated Examples' },

@@ -1,1 +1,0 @@
---- id: Recompilingtitle: Recompiling--- Initially the stronggrid DLL was set in a 32 bit format but later versions of Labview can’t run or open 32 bit software so in order to use the DLL the user must recompile the file or use labview 32 bit. To recompile for 64-bit the following programs are needed: Visual studios and cmake.

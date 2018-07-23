@@ -1,5 +1,0 @@
-﻿![](https://lh6.googleusercontent.com/TaUfo49b2ii6tnuE9IH1Tm5fBeR53yvGiAabJNaDtyYq4QqPH0kS3M9wdcVoMjZBBWiukzLpQMcvmZvh1m_Tl4vTDlxCBCGPsrmROa6yBD0Md1YBIRpXbpxZeR4wDQw_oPuffmCP)
-
-![](https://lh3.googleusercontent.com/gjBL_CTsCFIcUbB0zxoMpx9_evDMIqNPXtaWPe5q6uj_QCG0P4cFSmSRZRNQQpzZWXqYQpa2XwxPTVwOBRFCF0mVA3L2wRr_OjGQxFdJnxXDaHrhqOyB0CI3WlUdTO3mRBvCNv23)
-
-The center VI shows the timestamp of another system and rounds then prints it out.

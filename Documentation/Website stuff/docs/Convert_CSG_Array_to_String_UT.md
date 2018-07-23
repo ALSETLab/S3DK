@@ -1,5 +1,0 @@
-﻿![](https://lh6.googleusercontent.com/3BMcYwddfs23kbJaiH45ADfv2u1d3SWmPagFzjIr6G0AK7MJXJdeVFA9nadm60UbpZCCc0SvWs9AkfRUu4fFFX6bO_VgG80sHVpaGW5UVhOzNIVSFieFbVVvV7FOznYIGdv2obrU)
-
-![](https://lh3.googleusercontent.com/_DvNBLUv0drmrcHdGGmhibxaJDKL6jJJuOW1FN2qLFE1yuHtgL85tsk13n21UWWLJTZZpsKHxB9GeNt3gSjt7S_xsZXFykvDOg94QMGJWmWKCfwC12ZMVLO8WUuvGCFi5XqkpVL5)
-
-![](https://lh5.googleusercontent.com/eVYI-LOok1f_mqMFT5ABjPBQke5zsfsJ7BjR1C8ujDKqMmQtXr_4qNNf8XPujm3wNzoutO8tAH7M2grcCEQg5pUP-xDUNr8wS0ewMYuR1GjFBo1ZwSHcktyzirEDSTWiF8dow1bg)

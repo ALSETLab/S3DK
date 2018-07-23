@@ -1,3 +1,0 @@
-﻿![](https://lh5.googleusercontent.com/4DVcQalXZcMQk9Wo7as_hIiRJI4B8IujrSlCMXPhijJLdH8Z6DVbfF3V7ckbrcnITELmToLpP06Zqaygd25uKbRWXOUEXBBTI95zWcAYAhA4oMxlzaDSunynbDVjqL1CkEel0dgJ)
-
-This component is used to remove bad data when the “remove bad data” is set to true. This component accepts an initial array of complex numbers, must be run more than once to check for Bad Data as the first call stores the number of elements in the input data always resulting in ture. Bad Data return true if multiple data points are equal; the array out will be array in without the repeated data. The ratio would be out of the entire array in how much of it were bad data.
