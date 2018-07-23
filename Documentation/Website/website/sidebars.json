@@ -8,7 +8,7 @@
     
   },
   "docs-other": {
-    "Integrated Examples": ["PDC_Reader","Self_Starting_Simple_Frequency_Reader","Simple_Frequnecy_Reader","Oscillation_PMU"],
+    "Integrated Examples": ["PDC_Reader","Self_Starting_Simple_Frequency_Reader","Simple_Frequnecy_Reader","Oscillation_PMU","PMU_Template"],
     "Unit Test":["Buffer_cut_from_2D_Analog_Array_UT","Buffer_cut_from_2D_boolean_array_UT","Buffer_cut_from_2D_Complex_array_UT","Buffer_Rearrange_Analog_2D_Array_UT","Buffer_Rearrange_Complex_2D_Array_UT","Buffer_Rearrange_Digital_2D_Array_UT","Buffer_Rearrange_Time_Stamp_Array_UT","Calculate_Activity_UT","Calculate_Angle_and_Amplitudes_UT","Calculate_data_Retrieval_UT","Calculate_True_value_ratio_UT","Check_for_Bad_dt_UT","Check_Time_Stamp_UT","Clean_Data_analog_array_UT","Clean_Data_UT","Convert_Command_for_Display_UT","Convert_CSG_Array_to_String_UT","Convert_Number_to_String(Double)_UT","Convert_number_to_string(single)_UT","Create_Waveform_UT","DW_Check_Data_UT","Get_real_Timestamp_2_UT","Get_Real_Timestamp_UT","Get_Selected_Indices_UT","Queue_Reader_UT","Signal_Create_Waveform_Array_UT","Signal_Create_Waveform_by_Interpolation_UT","Split_command_and_parameter_UT","TS_Clip_Array_UT","TS_Round_to_the_nearest_10ms_UT"]
   }
 }
