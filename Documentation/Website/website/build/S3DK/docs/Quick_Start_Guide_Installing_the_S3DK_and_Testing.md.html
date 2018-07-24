@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Quick_Start_Guide_Installing_the_S3DK_and_Testing.md · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# Quick-Start Guide: Installing the S3DK and Testing your Installation"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Quick_Start_Guide_Installing_the_S3DK_and_Testing.md · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ALSET.github.io/S3DK/index.html"/><meta property="og:description" content="# Quick-Start Guide: Installing the S3DK and Testing your Installation"/><meta property="og:image" content="https://ALSET.github.io/S3DK/img/ALSET_RPI.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ALSET.github.io/S3DK/img/docusaurus.png"/><link rel="shortcut icon" href="/S3DK/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/S3DK/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/S3DK/"><img class="logo" src="/S3DK/img/ALSET_RPI.png" alt="Documentation"/><h2 class="headerTitleWithLogo">Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/S3DK/docs/S3DK_Utilities_VI_Overview.html" target="_self">Documentation</a></li><li class=""><a href="/S3DK/docs/PDC_Reader.html" target="_self">Integrated Examples</a></li><li class=""><a href="/S3DK/en/help.html" target="_self">Help</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Quick_Start_Guide_Installing_the_S3DK_and_Testing.md</h1></header><article><div><span><p># Quick-Start Guide: Installing the S3DK and Testing your Installation</p>
+<h1><a class="anchor" aria-hidden="true" id="requirements"></a><a href="#requirements" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Requirements</h1>
+<ul>
+<li><p>LabView 2017, 32 bit.</p></li>
+<li><p>Real-Time Data:</p></li>
+</ul>
+<ul>
+<li><p>A PMU or PDC, PMU Connection tester, or</p></li>
+<li><p>A PDC simulator (provided below)</p></li>
+</ul>
+<ul>
+<li>Familiarity with LabView. You should at least have completed the Core 1 and Core 2 trainings from NI.</li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="installation"></a><a href="#installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h1>
+<ul>
+<li>Download the .vip file (in the screenshot below, s3dk-1.2.0.1.vip) with the latest version of the S3DK from the Github repo: <a href="https://github.com/ALSETLab/S3DK/releases">https://github.com/ALSETLab/S3DK/releases</a></li>
+</ul>
+<p><a href="https://github.com/ALSETLab/S3DK/releases"><img src="https://lh5.googleusercontent.com/hnZofddMWcAi4p7J4UX0z3xgYUnyzLQZyE4Uw3tlJkCD-dXFjlL5xoB2DGsuPWLGPw1lKsHyzN644fyl8vvQIbXCB4chPBaJkvLTVSPjf99JjyK2VT23OjgMzaPInOIsI04hBAqH" alt=""></a></p>
+<ul>
+<li><p>Double click on the downloaded file. The JKI VI Package Manager will open as shown below.<img src="https://lh3.googleusercontent.com/TONVoKJzJWyV2zN7VSOWbfTn88BOJwhDOccPB0GortZCFcdJjetfmjDmUabKna6jEx-TnRtTfjjF2hfVx0hv1p48jOdgR3gITxYVX-Jc3NJF_ou_KA_3VpbWyGbUM_QIcSMGIjsa" alt=""></p></li>
+<li><p>Click on Install, under the 2017 icon.</p></li>
+</ul>
+<ul>
+<li><p>Go through the installation process, and allow the S3DK to be connected to both public and private networks.</p></li>
+<li><p>If your installation is successful you should see the following window. Click on Finish.</p></li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/O0FAQFGga7JApkNwo7m175QmIFp1tdfU_kQfu8DxC1WH8EiB_XDWeaPHewuhIW1Ney9-C25LdpFjJNND8KEHAR7UtIXSbM37XKu_LQ2vOW27Q2MDQ0U-4q5zMOyrlAuZtGTfwXEp" alt=""></p>
+<h1><a class="anchor" aria-hidden="true" id="testing-your-installation"></a><a href="#testing-your-installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing your Installation</h1>
+<h2><a class="anchor" aria-hidden="true" id="what-you-will-need-if-you-have-access-to-a-pmu-or-pdc"></a><a href="#what-you-will-need-if-you-have-access-to-a-pmu-or-pdc" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What you will need: If you have access to a PMU or PDC:</h2>
+<ul>
+<li><p>Access to a PMU or a Phasor Data Concentrator streaming data using TCP.</p></li>
+<li><p>The IP Configuration for the PMU or PDC:</p></li>
+</ul>
+<ul>
+<li><p>IP address: e.g. 127.0.0.1</p></li>
+<li><p>Port Number: e.g. 4712</p></li>
+<li><p>ID Code: e.g. 1</p></li>
+</ul>
+<ul>
+<li>Check that your PMU or PDC stream is sending data using <a href="https://github.com/GridProtectionAlliance/PMUConnectionTester">PMU Connection Tester</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="what-you-will-need-if-you-don-t-have-access-to-a-pmu-or-pdc"></a><a href="#what-you-will-need-if-you-don-t-have-access-to-a-pmu-or-pdc" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What you will need if you don't have access to a PMU or PDC:</h2>
+<ul>
+<li><p>Download the following PDC Simulator: <a href="https://www.dropbox.com/s/7tsoogz7is6essh/PDCSimulator.zip?dl=0">link</a></p></li>
+<li><p>Unzip and run the PDC simulator. Allow access to both private and public networks.</p></li>
+<li><p>Use the default configuration in PDC simulator, or modify it according to your preference:</p></li>
+</ul>
+<ul>
+<li>Uncheck the &quot;Enable UDP Unicast&quot; option. It is not needed.<img src="https://lh3.googleusercontent.com/SO9c85dVoOIUPC7iLlYv0HxFQjj6_o1Z_qXcZ5v9jCxHFl5bSQ7ZWrhlJhdTSrGS9k6oyBdpaD5GUtd_yl7dOIgwSAvobZWgBt7dtRZYJzPoPzG-XCU4aZj8r7S9t-Sh_BvMEWK8" alt=""></li>
+</ul>
+<ul>
+<li>Click on &quot;Start&quot;</li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/JybA---iTZ6kVPkQhV2Aa9BycaPJkzjyBrNnrkr0D1ia1liCmQWmdcfaEFqnjqaijW0_fSw3mG9QZ7Em-snlBK_rnFVtIoaOj1bljigPq_LocRk1eE7sTzpim18gpLdFaD8ZeM7T" alt=""></p>
+<ul>
+<li><p>The simulator will stream output data as configured on the specified port:<img src="https://lh3.googleusercontent.com/ufEgewde7u0TyHlLRDsVdp94Ck5clb1hxLmHWeITtn2j3U2O1RUI4y9WfpOsFryUhu0GKr5ci4N_rVcf_iVfb_2V_p8U-GPfkzc0dXxoBk5rh8ST4UTTNcYXZoGyjqph1zvIldnQ" alt=""></p></li>
+<li><p>The IP Configuration for the PDC simulator is:</p></li>
+</ul>
+<ul>
+<li><p>IP address: 127.0.0.1</p></li>
+<li><p>Port Number: 4712</p></li>
+<li><p>ID Code: e.g. 1</p></li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="testing-the-s3dk-installation"></a><a href="#testing-the-s3dk-installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Testing the S3DK Installation</h1>
+<ul>
+<li><p>Open LabView, and create a new project and a &quot;Blank VI&quot;.</p></li>
+<li><p>In the &quot;Block Diagram&quot;, left click to open the &quot;Functions&quot; Palette, and scroll down to the &quot;Smart grid Synchrophasor SDK (S3DK)&quot;.</p></li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/n4JOLKBAeyEReCElCNb5X9NtuKYpMIut3gnkWHTkwiCcIu1LX1Ih9EzQoEo2f1A4kILYwDxMlIZc2WS3Du8-qPUvpaT46JhJgYSWaxfNi-dmpuo2bvGPIDqFUDA0QLFQSt8J4WxK" alt=""></p>
+<ul>
+<li>Click on &quot;Buffer and Queues&quot;, and drag the &quot;S3DK GUI&quot; block to the &quot;Block Diagram&quot; of your new VI.</li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/mLwFrGYmfyGeiW0ZS92Thu3vZHHFNYXctBKQB59BfB2xF_MfNozojs7CTuLBBC1OJHEcuRAutJd8ULpT6nYmrMod3zDKPxv_8h1I_WLXtyWRLyW35ePalTKL8kazDILksBQVGYhU" alt=""></p>
+<ul>
+<li><p>Double click on the &quot;PMU&quot; block with the red circle, this will open the GUI used to connect the S3DK and LabView to the real-time data stream, shown in the bottom left-hand side of the screenshot.<img src="https://lh6.googleusercontent.com/3YUdOc5xg0uNKW0_F8ifiWJjIGNxsqh1XOhdrAg41M4EjcCDVLK5yNdW8Rvmrpsk3FurSRDTqhsHsc2xbCJzVuKCcP-XWgvKKCyuApaE1GBoKD_ryhZnjqUxLkOgRu-X7cfUvrV6" alt=""></p></li>
+<li><p>Click on the top bar of the GUI under Edit, &quot;Run&quot;, and then &quot;Config&quot; on the bottom right hand side when the GUI is running.</p></li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/PB5vAp-stXay58k0e-HEKj3A8GSX-gUWEpfMOykjTlaageQcsUaKfHQvXqFMS8wl1ZFg-_l-mo67dL84AlNWQdS0_2M6E3d8ng3vM8UY0eNX5fBFYFducaS5ialIroJg1bF9iLY9" alt=""></p>
+<p><img src="https://lh5.googleusercontent.com/m_Zf0chCobvzPF9eLQNghNS0-QPSAc1FwMOJT4Fp8bjzzplAqDRHSYRAnyBopKWRGi6dDEQIuEF_bK0OEob91sOpKpqBW3p-q1PLn4xc7ybwBob8_EUOJr3rgMfgIMZdKlfeqEjn" alt=""></p>
+<ul>
+<li>In the Connection tab, enter the IP Configuration for the PMU/PDC you have available, in this case, for the PDC simulator we have:</li>
+</ul>
+<ul>
+<li><p>IP address: 127.0.0.1</p></li>
+<li><p>Port Number: 4712<img src="https://lh5.googleusercontent.com/sGUzE2p6x4D6Su8UXQH-3i0MDL29hZ4sdOW1NnvDoXXNbyNBw72XxRcaKLMU4kbNjTSii63t13Vb9U-cuBlr9B1N_Q2z96yPtF-1KW9LRcNnIg-hKb604T-f9hvg_hBcfLm8cvV2" alt=""></p></li>
+<li><p>ID Code: e.g. 1</p></li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/VpcFEUJUI2UNKeydoy8U8mnX2sQDHkrtPECPcZhchbLoS0Yi1_i6BxicnZLk7F0U60P3qj5mBvKVJR3R4VcjZoXMMmLzeNxspQ8tVWivPhnv7rrrxVsGgGoIZ6eCcT8lfO3Nc9Jm" alt=""></p>
+<ul>
+<li>Click on &quot;OK&quot;</li>
+</ul>
+<ul>
+<li>Next, click on &quot;Start Up&quot; in the GUI.</li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/K7Fx1q_VSV0T_-OvV0yNBhFLhKLeBbNoaVoVfukwD9d75o9AEnhdK6mLOW1WDo0u8oS2lCZosHx3t6zGl2uiC-1tkgxM7XSM9hXfSPBaDunqrnOnCQzR42tE3fPNRp7n_KHZ2wcX" alt=""></p>
+<ul>
+<li>The top of the GUI indicates &quot;initialize —&gt; configure&quot; this means that the S3DK is receiving the configuration frame. Once the S3DK starts receiving data, the GUI will appear as follows:</li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/4CQmL11UZvOs8Rlek7E5nFZmO8VN1ugdXCGDSYvMpJgnT3pAc24cJKcyhS6lYXva1Off3IIyLhl0oZq0UZobZNefGZ_XB2m9R91LIVKWDg3CKw3LDn7gWBop0CrBuTLjSGpGGglF" alt=""></p>
+<ul>
+<li>The dials above are about 20% and 10%, which corresponds to the CPU and memory resources being used. By clicking on the &quot;Raw Data Panel&quot; yellow button, you can display the raw data being received, as follows:</li>
+</ul>
+<p><img src="https://lh3.googleusercontent.com/V247966IHyFo8uEvCO_TW7uotcV1VRFQzc_Pkzzq7EOdXgnSV9qDiKseUEuiXVAs6hNStxX61XlPltTZ1dEIkOkuDROCX4ie2d5N4EpocoOVV57bPAqB-E6Si52YVdbAqBwWXrwK" alt=""></p>
+<ul>
+<li><p>You can modify the update rate to display in the &quot;Raw Data Panel&quot; by selecting the &quot;Update Rate&quot; on the top left (in this case we are displaying 10 Hz of the 30 Hz data). Note that this is only for displaying purposes, the data available to the S3DK can be configured to report at the full or other update rates for computations on the data parcels.</p></li>
+<li><p>To select the display form of the phasor quantities, i.e. either polar form (magnitude and angle) or cartesian coordinates (real and imaginary), move the button from &quot;Re/Im&quot; to &quot;Amp/Ang&quot;.</p></li>
+<li><p>The &quot;Channel Selector&quot; yellow button (below the &quot;Raw Data Panel&quot; button), allows to select the different signals in the stream and to use them in an application.</p></li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="using-the-s3dk-for-a-new-synchrophasor-application"></a><a href="#using-the-s3dk-for-a-new-synchrophasor-application" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using the S3DK for a New Synchrophasor Application</h1>
+<ul>
+<li><p>Now you are ready to make a new application in LabView using the S3DK and your real-time data stream.</p></li>
+<li><p>You will now modify the simple VI made to call the GUI for connection with a PMU/PDC, and add a new application.</p></li>
+<li><p>Click on &quot;Shutdown&quot; and then &quot;Quit&quot; from the S3DK GUI, and stop the LabView VI executing it.</p></li>
+<li><p>Now go to the S3DK pallet, and select under &quot;Examples&quot; the &quot;Simple Frequency Reader&quot;, shown in the bottom right of the screenshot below:</p></li>
+</ul>
+<p><img src="https://lh4.googleusercontent.com/UpZdvTpeNkwIWP0krqW_bmzhjE6S4cCvrv-JBwH44vfScCGq8zda7Thdav33rtt4KISYG4IlKnaEjEKxg0OqLYLy0opiNasDNdPHr6BbwGkTSqht1svrZVMbsT4oe51ZG7wOCuzX" alt=""></p>
+<ul>
+<li>Drag and drop the example to the VI where you have placed the function block for the GUI in the previous step; it should appear as in the screenshot below:</li>
+</ul>
+<p><img src="https://lh5.googleusercontent.com/AfD86_tXKT1bquM_gkl9T3KnszaOw9VD7_whYAKzgtLw9HofYGb3FLnAsvieHdqCJOwQLwdmTokgVT_gMCOHxc1rvVYi62lvgjFNWGp4-jPrQBhBf5pqVzRXHfy0B-gW44OYn3KG" alt=""></p>
+<ul>
+<li><p>Save your edited VI and click on &quot;Run&quot;.</p></li>
+<li><p>After establishing your connection with a PMU/PDC, click on the GUI the &quot;Channel Selector&quot; button, and select the variable &quot;PMUNameX/frequency&quot;, where PMUNameX is the name of the PMU whose frequency you want to visualize. In the screenshot below that is PMU.001/frequency.</p></li>
+</ul>
+<ul>
+<li>Go back to your VI's &quot;Front Panel&quot;, you should be able to now visualize the frequency being streamed by the PMU/PDC, as shown below:</li>
+</ul>
+<p><img src="https://lh6.googleusercontent.com/PvjA1CJ7asg6T5XFS3L7TR6v1ko9YLFwFjnfgI08i-xpulsb_u6uLFoNDc2muwTqvm8pPOxQjfxle3tlS7ztv1UTcw9-XDYimu5FuMgdnRcHfaspQBswC4rdsItqNeoyRgYbYhoP" alt=""></p>
+<ul>
+<li><p>Now you have a new frequency visualization tool!</p></li>
+<li><p>To develop more advanced applications you need to learn to use LabView; in this link you can find a catalog of courses from National Instruments: <a href="http://sine.ni.com/tacs/app/fp/p/ap/ov/lang/en/pg/1/sn/n8:142/">http://sine.ni.com/tacs/app/fp/p/ap/ov/lang/en/pg/1/sn/n8:142/</a></p></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#what-you-will-need-if-you-have-access-to-a-pmu-or-pdc">What you will need: If you have access to a PMU or PDC:</a></li><li><a href="#what-you-will-need-if-you-don-t-have-access-to-a-pmu-or-pdc">What you will need if you don't have access to a PMU or PDC:</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/S3DK/" class="nav-home"><img src="/S3DK/img/ALSET_RPI.png" alt="Documentation" width="100" height="30"/></a><div><h5>Specific Github links</h5><a href="https://github.com/ALSETLab/S3DK-STRONGgrid">S3DK-STRONGgrid</a><a href="https://github.com/ALSETLab/S3DK">S3DK</a></div><div><h5>Links to stuff</h5><a href="https://google.com">Literally Google</a><a href="https://en.wikipedia.org/wiki/Phasor_measurement_unit" target="_blank" rel="noreferrer noopener">Basic Info for PMU</a><a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute</a><a href="https://alsetlab.github.io/" target="_blank" rel="noreferrer noopener">Alset Lab</a></div><div><h5>Docusaurus Resources</h5><a href="https://docusaurus.io/en/">Docusarus website</a><a href="https://github.com/facebook/docusaurus">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/S3DK/img/fb.jpg" alt="Facebook Open Source" width="50" height="45"/></a><section class="copyright">Copyright © 2018 Rensselaer Polytechnic Institute</section></footer></div></body></html>
