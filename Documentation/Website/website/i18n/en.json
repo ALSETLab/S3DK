@@ -116,6 +116,7 @@
     "Quick_Start_Guide_Installing_the_S3DK_and_Testing.md": "Quick_Start_Guide_Installing_the_S3DK_and_Testing.md",
     "Read_Configuration": "Read_Configuration",
     "Recompiling_Stronggrid_DLL": "Recompiling_Stronggrid_DLL",
+    "S3DK_Palette": "S3DK_Palette",
     "S3DK_Utilities_VI_Overview": "S3DK_Utilities_VI_Overview",
     "S3DK": "S3DK",
     "Self_Starting_Simple_Frequency_Reader": "Self_Starting_Simple_Frequency_Reader",
@@ -144,7 +145,6 @@
     "STRONGgrid DLL VI": "STRONGgrid DLL VI",
     "Buffer and Queue": "Buffer and Queue",
     "TDMS Application": "TDMS Application",
-    "Open PMU": "Open PMU",
     "Unit Test": "Unit Test"
   },
   "pages-strings": {

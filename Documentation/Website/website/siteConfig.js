@@ -16,7 +16,7 @@ const users = [
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ALSET_RPI.png',
     infoLink: 'https://github.com/ALSETLab',
-    pinned: true,
+    pinned: false,
   },
 ];
 
@@ -52,7 +52,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/ALSET_RPI.png',
   footerIcon: 'img/ALSET_RPI.png',
-  favicon: 'img/favicon.png',
+  favicon: 'img/RPI_Logo.png',
 
   /* colors for website */
   colors: {

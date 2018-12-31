@@ -16,7 +16,7 @@ const users = [
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ALSET_RPI.png',
     infoLink: 'https://github.com/ALSETLab',
-    pinned: true,
+    pinned: false,
   },
 ];
 

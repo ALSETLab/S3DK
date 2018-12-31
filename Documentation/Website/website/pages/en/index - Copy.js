@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href={docUrl('S3DK.html', language)}>S3DK Info.</Button>
-            <Button href={docUrl('S3DK_Palette.html', language)}>VI Palette Guide</Button> 
+            <Button href={docUrl('Stronggrid.html', language)}>Recompiling STRONGgrid DLL</Button>
             <Button href={docUrl('Stronggrid_Method.html', language)}>STRONGgrid DLL Method</Button>
           </PromoSection>
         </div>
