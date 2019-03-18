@@ -1,4 +1,4 @@
-﻿## S3DK Guide
+﻿
 
 ## Overview of the S3DK Toolbox:
 
