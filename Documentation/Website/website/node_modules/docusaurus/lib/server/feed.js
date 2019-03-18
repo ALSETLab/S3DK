@@ -5,34 +5,21 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const fs = require('fs-extra');
-const path = require('path');
-const os = require('os');
 const Feed = require('feed');
+const truncateHtml = require('truncate-html');
 
-const chalk = require('chalk');
+const BLOG_POST_SUMMARY_LENGTH = 250;
+
 const CWD = process.cwd();
+const siteConfig = require(`${CWD}/siteConfig.js`);
+const readMetadata = require('./readMetadata.js');
 
-const siteConfig = require(CWD + '/siteConfig.js');
-
-const blogFolder = path.resolve('../blog/');
-const blogRootURL = siteConfig.url + siteConfig.baseUrl + 'blog';
+const blogRootURL = `${siteConfig.url + siteConfig.baseUrl}blog`;
 const siteImageURL =
   siteConfig.url + siteConfig.baseUrl + siteConfig.headerIcon;
 const utils = require('../core/utils');
 
 const renderMarkdown = require('../core/renderMarkdown.js');
-
-/****************************************************************************/
-
-let readMetadata;
-let Metadata;
-
-readMetadata = require('./readMetadata.js');
-readMetadata.generateMetadataDocs();
-Metadata = require('../core/metadata.js');
-
-/****************************************************************************/
 
 module.exports = function(type) {
   console.log('feed.js triggered...');
@@ -43,11 +30,10 @@ module.exports = function(type) {
   const MetadataBlog = require('../core/MetadataBlog.js');
 
   const feed = new Feed({
-    title: siteConfig.title + ' Blog',
-    description:
-      'The best place to stay up-to-date with the latest ' +
-      siteConfig.title +
-      ' news and events.',
+    title: `${siteConfig.title} Blog`,
+    description: `The best place to stay up-to-date with the latest ${
+      siteConfig.title
+    } news and events.`,
     id: blogRootURL,
     link: blogRootURL,
     image: siteImageURL,
@@ -56,10 +42,11 @@ module.exports = function(type) {
   });
 
   MetadataBlog.forEach(post => {
-    const url = blogRootURL + '/' + post.path;
-    const content = utils.blogPostHasTruncateMarker(post.content)
-      ? utils.extractBlogPostBeforeTruncate(post.content)
-      : utils.extractBlogPostSummary(post.content.trim());
+    const url = `${blogRootURL}/${post.path}`;
+    const description = utils.blogPostHasTruncateMarker(post.content)
+      ? renderMarkdown(utils.extractBlogPostBeforeTruncate(post.content))
+      : truncateHtml(renderMarkdown(post.content), BLOG_POST_SUMMARY_LENGTH);
+
     feed.addItem({
       title: post.title,
       link: url,
@@ -70,7 +57,7 @@ module.exports = function(type) {
         },
       ],
       date: new Date(post.date),
-      description: renderMarkdown(content),
+      description,
     });
   });
 

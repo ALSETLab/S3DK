@@ -1,6 +1,6 @@
 'use strict';
 
-var DEFAULT_SEPARATOR = ':';
+var ELEM_SEP = ':';
 
 exports.type = 'perItem';
 
@@ -9,15 +9,11 @@ exports.active = false;
 exports.description = 'removes specified attributes';
 
 exports.params = {
-    elemSeparator: DEFAULT_SEPARATOR,
     attrs: []
 };
 
 /**
  * Remove attributes
- *
- * @param elemSeparator
- *   format: string
  *
  * @param attrs:
  *
@@ -76,18 +72,17 @@ exports.fn = function(item, params) {
     }
 
     if (item.isElem()) {
-        var elemSeparator = typeof params.elemSeparator == 'string' ? params.elemSeparator : DEFAULT_SEPARATOR;
 
             // prepare patterns
         var patterns = params.attrs.map(function(pattern) {
 
                 // apply to all elements if specifc element is omitted
-            if (pattern.indexOf(elemSeparator) === -1) {
-                pattern = ['.*', elemSeparator, pattern].join('');
+            if (pattern.indexOf(ELEM_SEP) === -1) {
+                pattern = ['.*', ELEM_SEP, pattern].join('');
             }
 
                 // create regexps for element and attribute name
-            return pattern.split(elemSeparator)
+            return pattern.split(ELEM_SEP)
                 .map(function(value) {
 
                         // adjust single * to match anything
