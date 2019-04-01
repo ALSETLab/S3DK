@@ -16,7 +16,7 @@ const users = [
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/ALSET_RPI.png',
     infoLink: 'https://github.com/ALSETLab',
-    pinned: false,
+    pinned: true,
   },
 ];
 
@@ -36,22 +36,13 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
-  algolia:
-    {
-      apiKey: 'f3272de918aa2eed28e8ecf1dd5c3bcd',
-      indexName:  'alsetlab_s3dk',
-      placeholder: 'Searching',
-      algoliaOptions: { } // Optional, if provided by Algolia
-    },
-  
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'S3DK_Utilities_VI_Overview', label: 'Documentation' },
-    //{ search: true },      /*Search can be enabled by request with DocSearch*/
+    { doc: 'Setting_Memory', label: 'Documentation' },
+    /*{ search: true },*/      /*Search can be enabled by request with DocSearch*/
     /*{doc: 'Recompiling Stronggreid DLL', label: 'Please'},*/
     { doc: 'PDC_Reader', label: 'Integrated Examples' },
     {page: 'help', label: 'Help'},
-    { search: true },
     //{ blog: true, label: 'Link to blog' },/*All websites are built with a blog command, but the boolean must be set to true*/
   ],
 

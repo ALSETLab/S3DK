@@ -1,1 +1,0 @@
-﻿**The PRL VI are similar to Stronggrid however are open to the user and have simpler uses. The VIs are used to communicate information such as data for buffer, status of the PMU/PDC, change channel for the data and a indicator on the strain of the application on the computer.**

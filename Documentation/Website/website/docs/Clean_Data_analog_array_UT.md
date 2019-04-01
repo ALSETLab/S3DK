@@ -1,3 +1,0 @@
-﻿![](https://lh6.googleusercontent.com/m1RJ7KXhZROI7ZIWg1R2LjeHaZK7tQnSz9ZxfIhHh9zKFmMLdPwqLok7_ldrLMEYT9ZtrQzIwG6mojQMkjYP6PIgH3U_ApzVvI2RL2bVkvOc08F2QHQbX0C5mXiYseMzFF9SKNVC)
-
-![](https://lh4.googleusercontent.com/7pwfmYcOT_P7050bOnAZFFabDPk9G_gbVXQqe_HH_Bq1QosKb6drIKKYiC8alxQYGiNTPRZp6-4CjkHM3LJmQctO91K2JFSAgzNDogwlG8ZxNKA9sXGkD8-dPmNPumoM0Gs-hx2-)

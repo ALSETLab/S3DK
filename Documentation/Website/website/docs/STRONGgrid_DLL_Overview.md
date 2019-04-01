@@ -1,1 +1,0 @@
-﻿**The Stronggrid DLL VIs connect the application to the PMU or PDC. The VIs are used to send information about the PMU/PDC to the application, for example information such as the configuration or data itself. There are also VIs that can connect or disconnect a PMU/PDC from an application. Overall the DLL VIs are for connection and interfacing with PMU/PDC through Labview.**

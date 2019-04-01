@@ -44,8 +44,8 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Links to stuff</h5>
-            <a href="http://www.letmegooglethat.com/">
-              LMGTFY
+            <a href="https://google.com">
+              Literally Google
             </a>
             <a
               href="https://en.wikipedia.org/wiki/Phasor_measurement_unit"
