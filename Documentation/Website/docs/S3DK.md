@@ -2,7 +2,7 @@
 
 ### [](https://github.com/ALSETLab/S3DK#quick-start-guide-installing-the-s3dk-and-testing-your-installation)Quick-Start Guide: Installing the S3DK and Testing your Installation
 
-Please read the following Quick-Start Guide to learn how to install, test and start using the S3DK:  [Quick-Start Guide 2018](https://www.notion.so/Quick-Start-Guide-Installing-the-S3DK-and-Testing-your-Installation-f791d8c2e9d7402ab6a820e065dd93e2)
+Please read the following Quick-Start Guide to learn how to install, test and start using the S3DK:  [Quick-Start Guide 2018](https://alsetlab.github.io/S3DK/docs/Quick_Start_Guide_Installing_the_S3DK_and_Testing.md)
 
 ### [](https://github.com/ALSETLab/S3DK#whats-in-this-repository-in-a-nutshell)What's in this Repository? In a Nutshell!
 
