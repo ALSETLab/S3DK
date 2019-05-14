@@ -161,6 +161,9 @@
       "Get_Phasor_Config": {
         "title": "Get_Phasor_Config"
       },
+      "Get_PMU_Configuration (1)": {
+        "title": "Get_PMU_Configuration (1)"
+      },
       "Get_PMU_Configuration": {
         "title": "Get_PMU_Configuration"
       },
