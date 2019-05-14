@@ -47,7 +47,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'S3DK_Utilities_VI_Overview', label: 'Documentation' },
-    { search: true },      /*Search can be enabled by request with DocSearch*/
+    //{ search: true },      /*Search can be enabled by request with DocSearch*/
     /*{doc: 'Recompiling Stronggreid DLL', label: 'Please'},*/
     { doc: 'PDC_Reader', label: 'Integrated Examples' },
     {page: 'help', label: 'Help'},
