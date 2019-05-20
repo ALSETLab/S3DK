@@ -46,7 +46,7 @@ const siteConfig = {
   
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'Setting_MemoryS3DK_Utilities_VI_Overview', label: 'Documentation' },
+    { doc: 'Setting_Memory', label: 'Documentation' },
     //{ search: true },      /*Search can be enabled by request with DocSearch*/
     /*{doc: 'Recompiling Stronggreid DLL', label: 'Please'},*/
     { doc: 'PDC_Reader', label: 'Integrated Examples' },
