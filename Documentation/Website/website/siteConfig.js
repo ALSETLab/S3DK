@@ -46,11 +46,10 @@ const siteConfig = {
   
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'Setting_Memory', label: 'Documentation' },
-    //{ search: true },      /*Search can be enabled by request with DocSearch*/
+    { doc: 'S3DK_GUI', label: 'Documentation' },
+    { search: true },      /*Search can be enabled by request with DocSearch*/
     { doc: 'PDC_Reader', label: 'Integrated Examples' },
     {page: 'help', label: 'Help'},
-    { search: true },
     //{ blog: true, label: 'Link to blog' },/*All websites are built with a blog command, but the boolean must be set to true*/
   ],
 
