@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>PMU_Template · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;The &amp;quot;Template PMU App&amp;quot; is a template project for developing PMU based on the S3DK. You need to have installed S3DK in your tabview for it to work properly. As described here &lt;a href=&quot;https://github.com/MaximeBaudette/Template-PMU-App&quot;&gt;https://github.com/MaximeBaudette/Template-PMU-App&lt;/a&gt;&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="PMU_Template · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ALSETLab.github.io/S3DK/index.html"/><meta property="og:description" content="&lt;p&gt;The &amp;quot;Template PMU App&amp;quot; is a template project for developing PMU based on the S3DK. You need to have installed S3DK in your tabview for it to work properly. As described here &lt;a href=&quot;https://github.com/MaximeBaudette/Template-PMU-App&quot;&gt;https://github.com/MaximeBaudette/Template-PMU-App&lt;/a&gt;&lt;/p&gt;
+"/><meta property="og:image" content="https://ALSETLab.github.io/S3DK/img/ALSET_RPI.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ALSETLab.github.io/S3DK/img/docusaurus.png"/><link rel="shortcut icon" href="/S3DK/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/S3DK/js/scrollSpy.js"></script><link rel="stylesheet" href="/S3DK/css/main.css"/><script src="/S3DK/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/S3DK/"><img class="logo" src="/S3DK/img/ALSET_RPI.png" alt="Documentation"/><h2 class="headerTitleWithLogo">Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/S3DK/docs/S3DK_GUI.html" target="_self">Documentation</a></li><li class=""><a href="/S3DK/docs/PDC_Reader.html" target="_self">Integrated Examples</a></li><li class=""><a href="/S3DK/help.html" target="_self">Help</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Searching" title="Searching"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">PMU_Template</h1></header><article><div><span><p>The &quot;Template PMU App&quot; is a template project for developing PMU based on the S3DK. You need to have installed S3DK in your tabview for it to work properly. As described here <a href="https://github.com/MaximeBaudette/Template-PMU-App">https://github.com/MaximeBaudette/Template-PMU-App</a></p>
+<p>it implements the following functionalities:</p>
+<p>1- Automated PMU data acquisition through the S3DK</p>
+<p>2- Configurable PMU data buffering for parallel algorithms</p>
+<p>3- User settings management</p>
+<p>4- User configurable error handling</p>
+<p>The PMU Template automatically searches for data files or DAQ devices, the two different general forms of the acquisition process is either CSV or S3DK methods. The S3DK is more general while CSV unbundle and breakdown the values of the CSV files. Most implementations from the Template PMU will have CSV settings or methods to interact with CSV files,</p>
+<ol>
+<li>Acquire:</li>
+</ol>
+<pre><code class="hljs">1.  This step setups where the data will come from and how will labview interpret that data. The first part is the state, which determines where the data will come, the different options are idle, idle S3dk, acquiring S3DK, idle CSV, acquiring CSV. Idle represents that the data is currently not transmitting, while acquiring means collecting from hardware.
+
+2.  Settings determine what the program is for, normally this is set for acquisition as at this step data is being transmitted.
+
+3.  Signals represent the data coming in
+
+4.  CSV section determines which part of the CSV data structure we will put the data in and the length of the value. EOF means end of file.
+
+5.  Mode section breakdowns into the type of time that is being transmitted, how the information will be separated, and where the data will be going
+</code></pre>
+<ol start="2">
+<li>Configure:</li>
+</ol>
+<pre><code class="hljs">1.  This VI is used to configure and store settings for the application.
+</code></pre>
+<ol start="3">
+<li>Error Handler:</li>
+</ol>
+<pre><code class="hljs">1.  In the template, the user can either ignore errors entriley depending on the error or have the standard error prompt, if the user allows it.
+
+2.  The error handling ignores errors in two ways, either static or dynamic. The Ignore Errors (Static List) array constant should contain ignore errors that are defined at edit time. The Ignore Errors (Runtime) array can be dynamically generated at runtime
+</code></pre>
+<ol start="4">
+<li>Initialize:</li>
+</ol>
+<pre><code class="hljs">1.  The initialize setup is made to start any hardware reference needed for the application and startup the PRL.
+
+2.  If a connection is not set than the application times out
+</code></pre>
+<ol start="5">
+<li>Shutdown:</li>
+</ol>
+<pre><code class="hljs">1.  As the name implies, runs a close and shutdown operation for the end of the data.
+</code></pre>
+<ol start="6">
+<li>Stop:</li>
+</ol>
+<pre><code class="hljs">1.  As the name implies, runs a stop operation for the pause of the data input by closing any references to the hardware connected through the initialize VI.
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/S3DK/" class="nav-home"><img src="/S3DK/img/ALSET_RPI.png" alt="Documentation" width="100" height="30"/></a><div><h5>Specific Github links</h5><a href="https://github.com/ALSETLab/S3DK-STRONGgrid">S3DK-STRONGgrid</a><a href="https://github.com/ALSETLab/S3DK">S3DK</a></div><div><h5>Links to stuff</h5><a href="http://www.letmegooglethat.com/">LMGTFY</a><a href="https://en.wikipedia.org/wiki/Phasor_measurement_unit" target="_blank" rel="noreferrer noopener">Basic Info for PMU</a><a href="https://www.rpi.edu/">Rensselaer Polytechnic Institute</a><a href="https://alsetlab.github.io/" target="_blank" rel="noreferrer noopener">Alset Lab</a></div><div><h5>Docusaurus Resources</h5><a href="https://docusaurus.io/en/">Docusarus website</a><a href="https://github.com/facebook/docusaurus">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/S3DK/img/fb.jpg" alt="Facebook Open Source" width="50" height="45"/></a><section class="copyright">Copyright © 2019 Rensselaer Polytechnic Institute</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'f3272de918aa2eed28e8ecf1dd5c3bcd',
+                indexName: 'alsetlab_s3dk',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
