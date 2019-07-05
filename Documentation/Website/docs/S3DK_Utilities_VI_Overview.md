@@ -1,4 +1,0 @@
-﻿id: Utilities
-title: S3DK Utilities
----
-**The S3DK utilities VI are the basic components of the S3DK and are used in higher order VIs for data processing. In the integrated examples multiple S3DK are combined to process PMU data and output it to the user. The utilities can be used to do more than just deal with PMU data but have many applications with handling data such as cleaning and separating data in arrays. These VIs when used in PMU configuration are able to handle and control data inputted from a PMU and configure that data in a form that can be interrupted. Some VI that have function outside of PMU such as use PTR STR Convert SGL Array to String and PRL TS Get Real Timestamp can be used in other applications due to the simplicity of their functions. Most PRL queue functions need to connect with a PMU in order to be used properly.**
