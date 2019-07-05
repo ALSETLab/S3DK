@@ -161,6 +161,9 @@
       "Get_Phasor_Config": {
         "title": "Get_Phasor_Config"
       },
+      "Get_PMU_Configuration (1)": {
+        "title": "Get_PMU_Configuration (1)"
+      },
       "Get_PMU_Configuration": {
         "title": "Get_PMU_Configuration"
       },
@@ -350,9 +353,6 @@
       "S3DK_Palette": {
         "title": "S3DK_Palette"
       },
-      "S3DK_Utilities_VI_Overview": {
-        "title": "S3DK_Utilities_VI_Overview"
-      },
       "S3DK": {
         "title": "S3DK"
       },
@@ -420,7 +420,7 @@
       "Help": "Help"
     },
     "categories": {
-      "S3DK Utilities VIs": "S3DK Utilities VIs",
+      "S3DK Utilities": "S3DK Utilities",
       "STRONGgrid DLL VI": "STRONGgrid DLL VI",
       "Buffer and Queue": "Buffer and Queue",
       "TDMS Application": "TDMS Application",
