@@ -4,7 +4,7 @@ Smart grid Synchrophasor SDK (S3DK) - A LabVIEW API and a Real-Time Data Mediato
 
 # Requirements
 
--   LabView 2018 SP1, 64 bit or Lawbview 2019, 64 bit
+-   LabView 2018 SP1, 64 bit or LabView 2019, 64 bit
 -   Real-Time Data:
     -   A PMU or PDC, PMU Connection tester, or
     -   A PDC simulator (provided below)
