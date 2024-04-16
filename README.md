@@ -15,7 +15,6 @@ In addition, please feel free to include a citation to the initial work that lea
 - You can download the paper from the publisher's website: [https://ieeexplore.ieee.org/document/6652191](https://ieeexplore.ieee.org/document/6652191)
 - The paper is behind the publisher's paywall. A pre-print of the paper can be found on ResearchGate [here](https://www.researchgate.net/publication/256196948_A_Software_Development_Toolkit_for_Real-Time_Synchrophasor_Applications).
 
-
 # Requirements
 
 -   LabView 2018 SP1, 64 bit or LabView 2019, 64 bit
@@ -27,6 +26,9 @@ In addition, please feel free to include a citation to the initial work that lea
 
 # Quickstart Guide
 A quickstart guide is provided [here](https://alsetlab.notion.site/Quick-Start-Guide-Installing-the-S3DK-and-Testing-your-Installation-f791d8c2e9d7402ab6a820e065dd93e2?pvs=4).
+
+# Documentation
+A website with detailed documentation an all S3DK functions is available at [https://alsetlab.github.io/S3DK/docs/S3DK.html](https://alsetlab.github.io/S3DK/docs/S3DK.html)
 
 # Installation 
 - Double click on the downloaded file. The JKI VI Package Manager will open.
