@@ -1,6 +1,20 @@
 # S3DK
 Smart grid Synchrophasor SDK (S3DK) - A LabVIEW API and a Real-Time Data Mediator for PMU Application Development!
 
+## Overview
+The Smart-grid Synchrophasor SDK (S3DK) is toolkit akin to a software development kit (SDK) for developing synchrophasor applications, providing a number of functionalities that enable high-level PMU application development within the LabVIEW environment. This Smart-grid Synchrophasor SDK (S3DK) proposes a paradigm based on the concept of distributed applications, which allows development and deployment to be independent of the existing software stack deployed in power system control centers and to leverage PMU data at any level of a synchrophasor system hierarchy.  This software has been released as open source software to facilitate broader and fast prototyping of synchrophasor applications.
+
+An open access paper that serves to introduce the S3DK, is provided in the following link. If you use any resources in this repository, please cite the paper:
+> M. Baudette, L. Vanfretti, and S. Tyagi, “S3DK: An Open Source Toolkit for Prototyping Synchrophasor Applications” in Electronics, 2024, 13 (8), 1513. https://doi.org/10.3390/electronics13081513
+
+- You can access the paper on this link: [https://www.mdpi.com/2079-9292/13/8/1513](https://www.mdpi.com/2079-9292/13/8/1513)
+
+In addition, please feel free to include a citation to the initial work that lead to the open source release of the S3DK was published in the following paper:
+> L. Vanfretti, V. H. Aarstrand, M. S. Almas, V. S. Perić and J. O. Gjerde, "A software development toolkit for real-time synchrophasor applications," 2013 IEEE Grenoble Conference, Grenoble, France, 2013, pp. 1-6, doi: 10.1109/PTC.2013.6652191.
+
+- You can download the paper from the publisher's website: [https://ieeexplore.ieee.org/document/6652191](https://ieeexplore.ieee.org/document/6652191)
+- The paper is behind the publisher's paywall. A pre-print of the paper can be found on ResearchGate [here](https://www.researchgate.net/publication/256196948_A_Software_Development_Toolkit_for_Real-Time_Synchrophasor_Applications).
+
 
 # Requirements
 
@@ -10,6 +24,10 @@ Smart grid Synchrophasor SDK (S3DK) - A LabVIEW API and a Real-Time Data Mediato
     -   A PDC simulator (provided below)
 -   Familiarity with LabView. 
 - VI Package Manager from JKL
+
+# Quickstart Guide
+A quickstart guide is provided [here](https://alsetlab.notion.site/Quick-Start-Guide-Installing-the-S3DK-and-Testing-your-Installation-f791d8c2e9d7402ab6a820e065dd93e2?pvs=4).
+
 # Installation 
 - Double click on the downloaded file. The JKI VI Package Manager will open.
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/58e8ddcd-945a-441a-80d0-377cadb3260a/second.PNG?AWSAccessKeyId=ASIAT73L2G45EJK6E7OF&Expires=1548640282&Signature=KtlCfSaD1JarLt5Ee7mykyDyW5E%3D&x-amz-security-token=FQoGZXIvYXdzENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDJNOTyqnmI8xB0CfeCK3A9BmoorDQuOMV4tv9n5rjC5c9Xu42f8yt3C%2FBoerTD%2B53gY0BDRyGhxHSt0FKli043TkpnWy9ub4ICJOt3UignpppH1T9v9S4QUojGuL%2FUZTgQmWW1613NuCnZ2DOEU%2BgVixLw6j3gIcEHzdK5cZAwdbgDwWvTihOCPCkqg3MtRe9HY7CuJXRQFKyBtlY5Jzsg4GEcrv4NRxCptam%2FzMrW175kE2WgzRJ5krsUfEti4dIfqaXiCdmxZbxwPyBxdWSys3hgSRt1lEHIQIyM%2BW0zseEGHcGk4FZR3U9jCKh0vy8WPbGfPpFjIlyz21xP90sKaBlpbrdyYJn1ywhVGZhRAvY4pB6pQOiuXJ5gGe2K9gX8jCj7AUdZtFxAyDxFuiEatr9AkCl39EXJXgkJlqHwKKvEmZHgvu6WNShXWKtnxOZcxd9pNe3reJUMKxqBUjafPUY6xgj4FDQ153UVBgYf3QLF%2FYcsmYPUdnPmdcDNtO23wQocGwa9gP1oxYjBtrcyvdmot307biof3YInl8%2Bl%2B8HDUXMNP8njSExSSrDb26cUaMn93Qy54YOBTtu58gXVkbzLaLhW0o%2FoS04gU%3D)
